@@ -2,7 +2,7 @@
 
 /* Services */
 
-var phonecatServices = angular.module('phonecatServices', ['ngResource']);
+var phonecatServices = angular.module('phonecatServices', ['ngResour']);
 
 phonecatServices.factory('Phone', ['$resource',
   function($resource){
